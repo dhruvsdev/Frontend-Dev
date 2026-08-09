@@ -1,0 +1,13 @@
+html
+├── head
+│   └── title
+│
+└── body
+    ├── header
+    ├── nav
+    ├── main
+    │   ├── section
+    │   └── section
+    └── footer
+
+This is DOM ( Document Object Model ) once the browser parses the HTML

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Tag</title>
+</head>
+
+<body>
+    <h3>Two sum II optimal code</h3>
+
+    <pre><code>
+        vector&lt;int&gt; ans; 
+        int i = 0; 
+        int j = arr.size() - 1; 
+
+        while (i &lt;= j) { 
+            if (arr[i] + arr[j] &lt; target) { 
+                i++; 
+            } 
+            else if (arr[i] + arr[j] == target) { 
+                ans.push_back(i); 
+                ans.push_back(j); 
+                return ans; 
+            } 
+            else { 
+                j--; 
+            }
+        } 
+        return ans;
+    </code></pre>
+
+    </code></pre>
+</body>
+
+</html>

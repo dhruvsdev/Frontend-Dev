@@ -1,0 +1,42 @@
+/* Universal selector */
+* {
+    color: red;
+}
+/* Element Selector */
+h1,p {
+    color: blue;
+}
+
+div p {
+    background-color: aqua;
+}
+/* Class selector */
+.highlight {
+    background-color: rgb(38, 229, 38);
+}
+/* ID selector */
+#heading {
+    color: blueviolet;
+}
+h1 {
+    color :rgb(0, 136, 255) !important;
+}
+/* !important flag - highest level of importance  */
+
+
+
+/* Inline used in list */
+
+
+/* Specifity (inline > id > class > element > universal */
+
+/* Universal Selector: 0
+Element selectors and pseudo-elements: 1
+Class selectors, attribute selectors, and pseudo-classes: 10
+ID selectors: 100
+Inline styles: 1000 */
+
+
+
+
+

@@ -1,0 +1,142 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: auto;
+    padding: 20px;
+
+}
+
+header {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+header h3 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: steelblue;
+    font-size: 36px;
+    margin-bottom: 5px;
+    letter-spacing: 1.5px;
+}
+
+h3 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(106, 57, 229);
+    font-size: 20px;
+    margin-bottom: 5px;
+    letter-spacing: 1.5px;
+}
+
+header h4 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(192, 107, 4);
+    font-size: 18px;
+    font-weight: 550;
+    word-spacing: 5px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    gap: 10px;
+    padding: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    font-size: 18px;
+    /* Avoid since it can cause layout changes*/
+    */
+}
+
+nav a::after {
+    text-transform: lowercase;
+}
+
+section h3 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+#about {
+    text-align: center;
+}
+
+#skills ul {
+    display: flex;
+    width: fit-content;
+    flex-direction: row;
+    /* flex-direction: column; */
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin: 0 auto;
+    list-style: none;
+}
+
+#skills li {
+    padding: 10px 10px;
+    border: 1px solid;
+    border-radius: 20px;
+}
+
+table {
+    margin: 0 auto;
+    text-align: center;
+    border-collapse: collapse;
+}
+th,
+td {
+    border: 1px solid black;
+    padding: 12px 20px;
+}
+
+#Projects {
+    text-align: center;
+}
+#acments ul {
+    text-align: center;
+    text-decoration: none;
+}
+#acments li {
+    text-align: center;
+    
+}
+form {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+input,
+textarea {
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: bisque;
+    box-sizing: border-box;
+}
+
+input:focus,textarea:focus {
+    outline: none;
+    border: 2px solid blue;
+    
+}
+button:hover {
+    opacity: 0.8;
+    background-color: rgb(135, 91, 37);
+    transition:
+}

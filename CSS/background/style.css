@@ -1,0 +1,19 @@
+p {
+    color: aliceblue;
+    background-color: red;
+}
+
+div {
+    height:1000px;
+    width:100vw;
+    background-image: url(img.png);
+    background-repeat: no-repeat;
+    /* background-size: 40px; */
+    /* background-size: cover; */
+    /* background-size: contain; */
+    /* background-size: auto; */
+    background-size: 50% 30%;
+    background-position:top right;
+    background-attachment: scroll;
+
+}

@@ -30,6 +30,8 @@ h1 {
 
 /* Specifity (inline > id > class > element > universal */
 
+/* specificitry value : */
+
 /* Universal Selector: 0
 Element selectors and pseudo-elements: 1
 Class selectors, attribute selectors, and pseudo-classes: 10
